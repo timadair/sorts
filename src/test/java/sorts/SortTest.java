@@ -34,7 +34,7 @@ public abstract class SortTest {
     permutations.forEach(p -> assertEqualToJavaSort(p.toArray(new String[p.size()]), sort));
     Instant end = Instant.now();
 
-    System.out.println("Successful sorting of all permutations of " + itemsToSort.size() + " unique items completed in " + Duration.between(start, end).toString() + " using sort algorithm " + getSortName());
+    System.out.println("Successful sorting of all permutations of " + itemsToSort.size() + " unique items completed in " + Duration.between(start, end).toString() + " using " + getSortName());
   }
 
   @Test
