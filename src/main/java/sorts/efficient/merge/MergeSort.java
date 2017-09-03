@@ -3,6 +3,7 @@ package sorts.efficient.merge;
 import java.util.Arrays;
 
 /**
+ * Implements a mergeSort into a new array.  Leaves the original array untouched.
  * Created by timadair on 9/2/2017.
  */
 public class MergeSort {
