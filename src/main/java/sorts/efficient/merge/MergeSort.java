@@ -1,14 +1,16 @@
 package sorts.efficient.merge;
 
+import sorts.Sort;
+
 import java.util.Arrays;
 
 /**
  * Implements a mergeSort into a new array.  Leaves the original array untouched.
  * Created by timadair on 9/2/2017.
  */
-public class MergeSort {
+public class MergeSort implements Sort {
 
-  public static String[] sort(String[] in) {
+  public String[] sort(String[] in) {
     String[] out = new String[in.length];
 
     if (in.length == 0) {
